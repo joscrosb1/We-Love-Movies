@@ -9,7 +9,6 @@ module.exports = {
   development: {
     client: "postgresql",
     connection: {
-      host: DB_HOST,
       port: DB_PORT,
       connectionString: DATABASE_URL,
     },
@@ -25,7 +24,6 @@ module.exports = {
   production: {
     client: "postgresql",
     connection: {
-      host: DB_HOST,
       port: DB_PORT,
       connectionString: DATABASE_URL,
     },
