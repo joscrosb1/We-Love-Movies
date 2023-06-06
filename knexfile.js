@@ -9,7 +9,7 @@ module.exports = {
   development: {
     client: "postgresql",
     connection: {
-      port: DB_PORT,
+    //  port: DB_PORT,
       connectionString: DATABASE_URL,
     },
     pool: { min: 0, max: 5 },
@@ -24,7 +24,7 @@ module.exports = {
   production: {
     client: "postgresql",
     connection: {
-      port: DB_PORT,
+     // port: DB_PORT,
       connectionString: DATABASE_URL,
     },
     pool: { min: 0, max: 5 },
